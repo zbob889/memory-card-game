@@ -7,8 +7,8 @@ const score = props.score
 const bestScore = props.bestScore
 
 return(
-  <div>
-    <p>Famous Jews Memory Game!</p>
+  <div className='header'>
+    <p className='title'>Famous Jews Memory Game!</p>
     <Scoreboard score={score} bestScore={bestScore} />
   </div>
 );
